@@ -1,8 +1,8 @@
-from kafka import KafkaConsumer
+# from kafka import KafkaConsumer
 
 
-def cons(request):
-    consumer = KafkaConsumer('test', bootstrap_servers=['localhost:9092'])
+# def cons(request):
+#     consumer = KafkaConsumer('test', bootstrap_servers=['localhost:9092'])
 
-    for message in consumer:
-        print(message)
+#     for message in consumer:
+#         print(message)
